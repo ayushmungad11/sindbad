@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div id="services">
+      <!-- Header Start -->
+      <header class="header-custom">
+        <div class="mobile-logo">
+          <a href="./index.html">
+            <img src="/assets/1.svg" alt="" />
+          </a>
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+          <i class="bx bx-menu" id="menu-icon"></i>
+          <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        <div class="menu">
+          <div class="menu-links">
+            <div class="menu-link">
+              <a href="./about-us.html">About Us</a>
+            </div>
+            <div class="menu-link">
+              <a href="./services.html">Services</a>
+            </div>
+            <div class="menu-link">
+              <a href="./how-to-begin.html">How to Begin</a>
+            </div>
+          </div>
+          <div class="menu-logo">
+            <a href="../index.html">
+              <img src="../assets/logo-black.png" alt="" />
+            </a>
+          </div>
+          <div class="menu-contact">
+            <div class="custom-button">
+              <a href="/pages/contact.html" type="button">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="hero-contact">
+        <div class="hero-section-contact">
+          <div class="hero-section-contact">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+      </section>
+      <!-- Header End -->
+      <div class="container-contact100">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="wrap-contact100">
+              <form class="contact100-form validate-form">
+                <!-- <span class="contact100-form-title"> Contact Us </span> -->
+                <div
+                  class="wrap-input100 validate-input bg1"
+                  data-validate="Please Type Your Name"
+                >
+                  <span class="label-input100">FULL NAME *</span>
+                  <input
+                    class="input100"
+                    type="text"
+                    name="name"
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+                <div
+                  class="wrap-input100 validate-input bg1 rs1-wrap-input100"
+                  data-validate="Enter Your Email (e@a.x)"
+                >
+                  <span class="label-input100">Email *</span>
+                  <input
+                    class="input100"
+                    type="text"
+                    name="email"
+                    placeholder="Enter Your Email "
+                  />
+                </div>
+                <div class="wrap-input100 bg1 rs1-wrap-input100">
+                  <span class="label-input100">Phone</span>
+                  <input
+                    class="input100"
+                    type="text"
+                    name="phone"
+                    placeholder="Enter Number Phone"
+                  />
+                </div>
+                <div class="w-full dis-none js-show-service">
+                  <div class="wrap-contact100-form-radio">
+                    <span class="label-input100"
+                      >What type of products do you sell?</span
+                    >
+                    <div class="contact100-form-radio m-t-15">
+                      <input
+                        class="input-radio100"
+                        id="radio1"
+                        type="radio"
+                        name="type-product"
+                        value="physical"
+                        checked="checked"
+                      />
+                      <label class="label-radio100" for="radio1">
+                        Phycical Products
+                      </label>
+                    </div>
+                    <div class="contact100-form-radio">
+                      <input
+                        class="input-radio100"
+                        id="radio2"
+                        type="radio"
+                        name="type-product"
+                        value="digital"
+                      />
+                      <label class="label-radio100" for="radio2">
+                        Digital Products
+                      </label>
+                    </div>
+                    <div class="contact100-form-radio">
+                      <input
+                        class="input-radio100"
+                        id="radio3"
+                        type="radio"
+                        name="type-product"
+                        value="service"
+                      />
+                      <label class="label-radio100" for="radio3">
+                        Services Consulting
+                      </label>
+                    </div>
+                  </div>
+                  <div class="wrap-contact100-form-range">
+                    <span class="label-input100">Budget *</span>
+                    <div class="contact100-form-range-value">
+                      $<span id="value-lower">1500</span> - $<span
+                        id="value-upper"
+                        >3900</span
+                      >
+                      <input type="text" name="from-value" />
+                      <input type="text" name="to-value" />
+                    </div>
+                    <div class="contact100-form-range-bar">
+                      <div
+                        id="filter-bar"
+                        class="noUi-target noUi-ltr noUi-horizontal"
+                      >
+                        <div class="noUi-base">
+                          <div class="noUi-origin" style="left: 0%">
+                            <div
+                              class="noUi-handle noUi-handle-lower"
+                              data-handle="0"
+                              tabindex="0"
+                              role="slider"
+                              aria-orientation="horizontal"
+                              aria-valuemin="0.0"
+                              aria-valuemax="40.0"
+                              aria-valuenow="0.0"
+                              aria-valuetext="1500.00"
+                              style="z-index: 5"
+                            ></div>
+                          </div>
+                          <div
+                            class="noUi-connect"
+                            style="left: 0%; right: 60%"
+                          ></div>
+                          <div class="noUi-origin" style="left: 40%">
+                            <div
+                              class="noUi-handle noUi-handle-upper"
+                              data-handle="1"
+                              tabindex="0"
+                              role="slider"
+                              aria-orientation="horizontal"
+                              aria-valuemin="0.0"
+                              aria-valuemax="100.0"
+                              aria-valuenow="40.0"
+                              aria-valuetext="3900.00"
+                              style="z-index: 6"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="wrap-input100 validate-input bg0 rs1-alert-validate"
+                  data-validate="Please Type Your Message"
+                >
+                  <span class="label-input100">Message</span>
+                  <textarea
+                    class="input100"
+                    name="message"
+                    placeholder="Your message here..."
+                  ></textarea>
+                </div>
+                <div class="container-contact100-form-btn">
+                  <button class="contact100-form-btn">
+                    <span>
+                      Submit
+                      <i
+                        class="fa fa-long-arrow-right m-l-7"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="wrap-contact100">
+              <div class="contact-details">
+                <div class="mail-number" style="text-align: center">
+                  <h1>Contact Details</h1>
+                  <p style="margin-top: 55px">admin@gmail.com</p>
+                  <p>9825008762</p>
+                </div>
+                <div class="address">
+                  <h1>Address</h1>
+                  <p style="padding-top: 30px">
+                    The House Of
+                    <a href="https://www.cityshor.com/">CityShor</a>, Behind
+                    Shilp Shivalik, Nr Iscon Circle, Satellite, Ahmedabad - 15
+                  </p>
+                  <p>
+                    Google Map :<a href="https://g.co/kgs/mkVopV1"
+                      >https://g.co/kgs/mkVopV1</a
+                    >
+                  </p>
+                  <p>
+                    Instagram :
+                    <a href="www.instagram.com/sindbadconsultancy"
+                      >www.instagram.com/sindbadconsultancy</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer start -->
+      <footer class="footer-custom">
+        <div class="container">
+          <div class="footer-content">
+            <p>Let's have a conversation over a cup of coffee?</p>
+            <a href=""> info@sindbadconsulting.com </a>
+          </div>
+
+          <div class="footer-main">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="footer-logo">
+                  <img src="../assets/Logo-1.png" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="footer-menu-list">
+                  <p>
+                    The House Of
+                    <a href="https://www.cityshor.com/">CityShor</a> Wala,
+                    Behind Shilp Shivalik, Nr Iscon Circle, Satellite, Ahmedabad
+                    - 15
+                  </p>
+                  <p>+91-9825008762</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="footer-social">
+                  <p>info@sindbadconsulting.com</p>
+                  <p>Whatsapp:+91-9825008762</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="https://assets.codepen.io/16327/DrawSVGPlugin3.min.js"></script> -->
+    <script type="module" src="../main.js"></script>
+    <script>
+      $(function () {
+        $(".services-slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          dots: true,
+          customPaging: function (slider, i) {
+            return (
+              '<div class="services-nav-block"> <h2>' +
+              $(slider.$slides[i]).attr("title") +
+              '</h2><img src="' +
+              $(slider.$slides[i]).attr("img") +
+              '"/></div>'
+            );
+          },
+          centerMode: true,
+        });
+
+        // $('.services-nav').slick({
+
+        //     slidesToShow: 2,
+        //     slidesToScroll: 0,
+        //     arrows: false,
+        //     asNavFor:'.services-slider'
+        // })
+      });
+    </script>
+  </body>
+</html>
