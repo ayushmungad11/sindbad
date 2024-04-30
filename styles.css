@@ -1366,6 +1366,9 @@ margin-top: 50px;
     display: block;
     padding: 15px;
   }
+  .card-image-top{
+    object-fit: cover;
+  }
   .card-image-top {
     height: 200px;
     width: 100%;
