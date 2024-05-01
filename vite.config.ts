@@ -1,6 +1,6 @@
-import { resolve } from 'path'
+import { resolve } from 'path'; 
 import { defineConfig } from "vite";
-import reactRefresh from '@vitejs/plugin-react-refresh'
+import reactRefresh from '@vitejs/plugin-react-refresh';
 
 
 export default defineConfig({
