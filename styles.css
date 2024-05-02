@@ -87,7 +87,7 @@ header::before {
 .hero {
   width: 100%;
   height: 200vh;
-  background-image: url("./assets/Rectangle-51.png");
+  background-image: url("./assets/Rectangle-51.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -146,7 +146,7 @@ header::before {
 
 .services {
   width: 100%;
-  background-image: url(./assets/bg.jpg);
+  background-image: url(./assets/bg.webp);
   min-height: 200vh;
   background-size: cover;
   background-position: center center;
@@ -524,7 +524,6 @@ header::before {
 
 .about-hero {
   width: 100%;
-  height: 100vh;
   padding-top: 100px;
 }
 
@@ -560,7 +559,6 @@ header::before {
 }
 
 .about-video {
-  margin-top: 200px;
   width: 100%;
 }
 
@@ -770,8 +768,12 @@ header::before {
 
 /* Process start */
 
+.process-mobile{
+  display: none;
+}
 .process-hero {
-  background-image: url(./assets/process-bg.png);
+  padding-top: 156px;
+  background-image: url(./assets/process-bg.webp);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -1648,7 +1650,34 @@ margin-top: 50px;
 
   /* services end */
   /* how to begin */
+  .process-main{
+    display: none;
+  }
+  .process-mobile{
+    display: block;
+    background-color: #253240;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile-heading h1{
+    font-size: 8rem;
+    margin-bottom: 10px;
+  }
+
+  .mobile-paragraph h2{
+    margin-top: 10px;
+    
+    font-size: 6rem;
+  }
+  .mobile-paragraph p{
+    margin-bottom: 3px;
+    font-size: 3rem;
+  }
+
+
   .process-hero {
+    padding-top: 0;
     margin-top: -190px;
     background-image: url("/assets/process-bg-mobile.png");
   }
