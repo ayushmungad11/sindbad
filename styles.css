@@ -1514,8 +1514,15 @@ margin-top: 50px;
     padding: 0;
     font-size: 6.5rem;
   }
-  #about div#sohil{order: 1;}
-  #about div#sohil-image{order: 2;}
+  #about div#pankaj-desc{order: 2;}
+  #about div#pankaj-image{order: 1;}
+  #about div#rajshree{order: 2;}
+  #about div#rajshree-image{order: 1;}
+
+  #about div#poonam{order: 2;}
+  #about div#poonam-image{order: 1;}
+  #about div#darshan{order: 2;}
+  #about div#darshan-image{order: 1;}
 
 
 
@@ -1528,6 +1535,7 @@ margin-top: 50px;
     font-size: 9rem;
   }
   .content-side.right-border img {
+    display: none;
     width: 60%;
   }
   .content-side h4 {
