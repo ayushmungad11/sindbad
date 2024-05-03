@@ -479,7 +479,7 @@ header::before {
 .footer-content p {
   color: #fff;
   font-size: 3rem;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   max-width: 30%;
 }
 
@@ -545,6 +545,7 @@ header::before {
 .about-hero-image img {
   width: 100%;
 }
+
 
 .ab-hero-content p {
   font-size: 2rem;
@@ -726,7 +727,11 @@ header::before {
 
 .services-slide p {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2rem;
+  line-height: normal;
+}
+.services-slide .bold{
+  font-size: 3rem;
 }
 
 .services-slider .slick-dots li.slick-active {
@@ -930,6 +935,7 @@ header::before {
 /* about icons */
 
 /* services icons */
+
 #services #check {
   display: none;
 }
@@ -1348,7 +1354,8 @@ margin-top: 50px;
     font-size: 4.5rem;
   }
   .footer-content p {
-    font-size: 8rem;
+    font-size: 6rem;
+    line-height: 1.1;
   }
 
   .footer-content a {
@@ -1507,6 +1514,13 @@ margin-top: 50px;
     padding: 0;
     font-size: 6.5rem;
   }
+  #about div#sohil{order: 1;}
+  #about div#sohil-image{order: 2;}
+
+
+
+
+
   .at-head p {
     font-size: 5.5rem;
   }
@@ -1638,6 +1652,9 @@ margin-top: 50px;
   .services-slide p {
     font-size: 5rem;
   }
+  .services-slide .bold{
+    font-size: 6rem;
+  }
   .services-slider .slick-dots {
     width: 20%;
   }
@@ -1661,18 +1678,19 @@ margin-top: 50px;
     padding-bottom: 20px;
   }
   .mobile-heading h1{
-    font-size: 8rem;
+    font-size: 10rem;
     margin-bottom: 10px;
   }
 
   .mobile-paragraph h2{
     margin-top: 20px;
     
-    font-size: 6rem;
+    font-size: 8rem;
   }
   .mobile-paragraph p{
     margin-bottom: 3px;
-    font-size: 3rem;
+    font-size: 5rem;
+    line-height: normal;
   }
 
 
