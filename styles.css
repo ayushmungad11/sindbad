@@ -1538,6 +1538,9 @@ margin-top: 50px;
     display: none;
     width: 60%;
   }
+  .content-side.left-border img{
+    display: none;
+  }
   .content-side h4 {
     font-size: 7.5rem;
   }
