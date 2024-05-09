@@ -164,6 +164,19 @@ header::before {
   visibility: visible;
 }
 .mySlides {display:none;}
+
+.w3-content .w3-section{
+  height: 600px;
+  max-width: 100%;
+}
+.mySlides{
+  height: 700px;
+  width: 100%;
+}
+
+
+
+
 #p2 {
   stroke-dasharray: 591.915px;
   stroke-dashoffset: 591.915px;
@@ -1647,6 +1660,13 @@ margin-top: 50px;
 
   /* services start */
 
+  .w3-content .w3-section{
+    max-width: 100%;
+  }
+  .mySlides{
+    width: 100%;
+  }
+  
   #services .icons {
     color: #000;
     display: inline-flex;
