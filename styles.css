@@ -170,8 +170,9 @@ header::before {
   max-width: 100%;
 }
 .mySlides{
-  height: 700px;
+  height: 600px;
   width: 100%;
+  object-fit: cover;
 }
 
 
@@ -698,11 +699,11 @@ header::before {
 
 .services-slide {
   width: 100%;
-  text-align: center;
+  text-align: left;
   display: flex !important;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: baseline;
   padding: 100px 0;
 }
 
