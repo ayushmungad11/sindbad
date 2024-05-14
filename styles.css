@@ -1011,16 +1011,240 @@ header::before {
   left: -10%;
 }
 
-.how-to-begin-process h1{
-  margin-top: 70px;
-  margin-bottom: 70px;
-  text-align: center;
-  font-size: 60px;
-  border-bottom: 1px solid black ;
+
+.heading-main h1{
+  border-bottom:  1px solid #ff904b;
+  margin-top: 100px;
+  text-align: -webkit-center;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 15px;
 }
-.how-to-begin-process .col-sm-6 img{
-  height: 300px;
+
+
+
+
+.how-to-begin-new .col-sm-6 img{
+  width: 100%;
 }
+.introduction-description{
+  padding: 25px 25px 0px 25px;
+}
+
+.how-to-begin-new .row:after {
+  content: '';
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  left: 0;
+  margin-left: 100px;
+}
+.how-to-begin-new{
+  margin-bottom: 100px;
+    margin-top: 100px;
+}
+.introduction-description h2{
+  padding-bottom: 10px;
+  font-size: 35px;
+  border-bottom: 1px solid black;
+
+}
+.introduction-description p{
+  margin-top: 10px;
+  font-size: 15px;
+
+}
+.how-to-begin-new li{
+  font-size: 15px;
+}
+
+
+
+/* how to begin 2 start */
+
+.how-to-begin-new-2 .col-sm-6 img{
+  width: 100%;
+}
+.how-to-begin-new-2 .row::after{
+  content: "";
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  right: 0;
+  margin-top: 960px;
+  margin-right: 100px;
+}
+.restaurant-description h2{
+  padding-bottom: 10px;
+  font-size: 35px;
+  border-bottom: 1px solid black;
+
+}
+.restaurant-description p{
+  margin-top: 10px;
+  font-size: 15px;
+
+}
+.image-restaurant{
+  padding-top: 25px;
+}
+.restaurant-description{
+  padding: 0px 25px 25px 25px;
+
+}
+.how-to-begin-new-2{
+  margin-bottom: 100px;
+}
+.how-to-begin-new-2 li{
+  font-size: 15px;
+}
+
+
+/* how to begin 2 end */
+/* how to begin 3 start */
+.how-to-begin-new-3 .col-sm-6 img{
+  width: 100%;
+}
+.restaurant-business-description{
+  padding: 25px 25px 0px 25px;
+}
+
+.how-to-begin-new-3 .row:after {
+  content: '';
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  left: 0;
+  margin-left: 100px;
+}
+.how-to-begin-new-3{
+  margin-bottom: 100px;
+    margin-top: 100px;
+}
+.restaurant-business-description h2{
+  padding-bottom: 10px;
+  font-size: 35px;
+  border-bottom: 1px solid black;
+
+}
+.restaurant-business-description p{
+  margin-top: 10px;
+  font-size: 15px;
+
+}
+.how-to-begin-new-3 li{
+  font-size: 15px;
+}
+.image-restaurant-business img{
+  object-fit: cover;
+  height: 700px;
+}
+
+/* how to begin 3 end */
+/* how to begin 4 start */
+
+.how-to-begin-new-4 .col-sm-6 img{
+  width: 100%;
+}
+.how-to-begin-new-4 .row::after{
+  content: "";
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  right: 0;
+  margin-top: 260px;
+  margin-right: 100px;
+}
+.menu-description h2{
+  padding-bottom: 10px;
+  font-size: 35px;
+  border-bottom: 1px solid black;
+
+}
+.menu-description p{
+  margin-top: 10px;
+  font-size: 15px;
+
+}
+.image-menu{
+  padding-top: 25px;
+}
+.menu-description{
+  padding: 25px 25px 25px 25px;
+
+}
+.how-to-begin-new-4{
+  margin-bottom: 100px;
+}
+.how-to-begin-new-2 li{
+  font-size: 15px;
+}
+
+/* how to begin 4 end */
+/* how to begin 5 start */
+
+/* how to begin 5 end */
+/* how to begin 6 start */
+.how-to-begin-new-6 .col-sm-6 img{
+  width: 100%;
+}
+.marketing-description{
+  padding: 25px 25px 0px 25px;
+}
+
+.how-to-begin-new-6 .row:after {
+  content: "";
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  right: 0;
+  margin-top: 480px;
+  margin-right: 100px;
+}
+.how-to-begin-new-6{
+  margin-bottom: 100px;
+    margin-top: 100px;
+}
+.marketing-description h2{
+  padding-bottom: 10px;
+  font-size: 35px;
+  border-bottom: 1px solid black;
+
+}
+.marketing-description p{
+  margin-top: 10px;
+  font-size: 15px;
+
+}
+.how-to-begin-new-6 li{
+  font-size: 15px;
+}
+
+.image-marketing img{
+  object-fit: cover;
+  height: 600px;
+}
+
+
+
+/* how to begin 6 end */
+
+
+
+
+
+
+
 
 
 
@@ -1982,6 +2206,62 @@ margin-top: 50px;
   }
   .left-process img {
     width: 66%;
+  }
+
+  .how-to-begin-new {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .heading-main h1 {
+    
+    font-size: 30px;
+  }
+
+  .how-to-begin-new .row::after{
+    display: none;
+  }
+  .how-to-begin-new-2 .row::after {
+    display: none;
+  }
+  .how-to-begin-new-3 .row:after {
+    display: none;
+  }
+
+  .how-to-begin-new-4 .row::after {
+    display: none;
+  }
+  .how-to-begin-new-6 .row::after{
+    display: none;
+  }
+  .introduction-description {
+    margin-bottom: 40px;
+  }
+  .image-restaurant{
+    margin-bottom: 40px;
+  }
+  .how-to-begin-new-2{
+    margin-bottom: 40px;
+  }
+  .how-to-begin-new-3{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .how-to-begin-new-4{
+    margin-bottom: 40px;
+  }
+  .how-to-begin-new-6{
+    margin-bottom: 40px;
+  }
+  .restaurant-business-description {
+    margin-bottom: 40px;
+  }
+  .image-menu{
+    margin-bottom: 40px;
+  }
+
+  .image-marketing{
+    margin-bottom: 40px;
   }
   /* how to begin  end*/
   .wrap-contact100 {
