@@ -709,7 +709,8 @@ header::before {
   padding-left: 20px;
 }
 .services-slider .row{
-  padding-left: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .services-slider .container .col-sm-3{
 
@@ -718,17 +719,18 @@ header::before {
 .icon-box{
   height: 280px;
   padding: 15px;
-  background-color: #f7f7f7;
+  background-color: #e0e0e0;
   border-radius: 50px;
   
 }
 .icon{
+  border: 6px solid white;
   margin-top: -70px;
   background: #f8a673;
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 17px;
 }
 .icon img{
   height: 50px;
@@ -753,10 +755,10 @@ header::before {
   font-size: 18px;
 }
 .two {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 .three{
-  margin-top: 100px;
+  margin-top: 120px;
 
 }
 
@@ -822,7 +824,7 @@ header::before {
 }
 
 .services-slider .slick-dots img {
-  max-width: 50%;
+  max-width: 30%;
 }
 
 .services-slide p {
