@@ -713,11 +713,17 @@ header::before {
   padding-left: 50px;
 }
 .services-slider .container .col-sm-3{
-
   text-align: -webkit-center;
 }
 .icon-box{
   height: 280px;
+  padding: 15px;
+  background-color: #e0e0e0;
+  border-radius: 50px;
+  
+}
+.icon-box-food{
+  height: 380px;
   padding: 15px;
   background-color: #e0e0e0;
   border-radius: 50px;
@@ -740,6 +746,11 @@ header::before {
   font-size: 18px;
   font-weight: bold;
 }
+.icon-box-food h3{
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
 .line:after {
   content:''; 
   display:block; 
@@ -751,6 +762,10 @@ header::before {
   border-radius:3px;
 }
 .icon-box p{
+  margin-top: 15px;
+  font-size: 18px;
+}
+.icon-box-food p{
   margin-top: 15px;
   font-size: 18px;
 }
