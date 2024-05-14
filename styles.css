@@ -701,6 +701,8 @@ header::before {
   height: 110px;
 }
 .heading-image h2{
+  padding-top: 25px;
+
   text-align: center;
   font-size: 30px;
   font-weight: bold;
@@ -722,7 +724,7 @@ header::before {
 }
 .icon{
   margin-top: -70px;
-  background: white;
+  background: #f8a673;
   width: 96px;
   height: 96px;
   border-radius: 50%;
@@ -735,6 +737,16 @@ header::before {
   margin-top: 15px;
   font-size: 18px;
   font-weight: bold;
+}
+.line:after {
+  content:''; 
+  display:block; 
+  width:80px; 
+  height:2px; 
+  background:#f8a673; 
+  margin:0 auto; 
+  margin-top:-25px; 
+  border-radius:3px;
 }
 .icon-box p{
   margin-top: 15px;
@@ -771,7 +783,7 @@ header::before {
 
 
 .services-slide {
-  background-color: #e7e7e7;
+  background-color: white;
   width: 100%;
   text-align: left;
   display: flex !important;
