@@ -1059,6 +1059,10 @@ header::before {
 .how-to-begin-new li{
   font-size: 15px;
 }
+.image-introduction img{
+  object-fit: cover;
+  height: 400px;
+}
 
 
 
