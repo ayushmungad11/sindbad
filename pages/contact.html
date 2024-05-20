@@ -30,6 +30,18 @@
     />
     <link rel="stylesheet" href="../styles.css" />
     <title>Contact Us</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "W9d9hPIlpjkg3SVmN",
+        });
+      })();
+    </script>
+    <script src="/script.js"></script>
   </head>
   <body>
     <div id="services">
@@ -81,7 +93,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="wrap-contact100">
-              <form class="contact100-form validate-form" action="/pages/form-process.php" method="POST">
+              <form class="contact100-form validate-form">
                 <!-- <span class="contact100-form-title"> Contact Us </span> -->
                 <div
                   class="wrap-input100 validate-input bg1"
@@ -92,6 +104,7 @@
                     class="input100"
                     type="text"
                     name="name"
+                    id="name"
                     placeholder="Enter Your Name"
                   />
                 </div>
@@ -104,6 +117,7 @@
                     class="input100"
                     type="text"
                     name="email"
+                    id="email"
                     placeholder="Enter Your Email "
                   />
                 </div>
@@ -113,10 +127,11 @@
                     class="input100"
                     type="text"
                     name="phone"
+                    id="phone"
                     placeholder="Enter Number Phone"
                   />
                 </div>
-                
+
                 <div
                   class="wrap-input100 validate-input bg0 rs1-alert-validate"
                   data-validate="Please Type Your Message"
@@ -125,11 +140,16 @@
                   <textarea
                     class="input100"
                     name="message"
+                    id="message"
                     placeholder="Your message here..."
                   ></textarea>
                 </div>
                 <div class="container-contact100-form-btn">
-                  <button class="contact100-form-btn" type="submit">
+                  <button
+                    class="contact100-form-btn"
+                    type="submit"
+                    onclick="sendMail()"
+                  >
                     <span>
                       Submit
                       <i
@@ -194,9 +214,8 @@
                 <div class="footer-menu-list">
                   <p>
                     The House Of
-                    <a href="https://www.cityshor.com/">CityShor</a> ,
-                    Behind Shilp Shivalik, Nr Iscon Circle, Satellite, Ahmedabad
-                    - 15
+                    <a href="https://www.cityshor.com/">CityShor</a> , Behind
+                    Shilp Shivalik, Nr Iscon Circle, Satellite, Ahmedabad - 15
                   </p>
                   <p>+91-9825008762</p>
                 </div>
@@ -256,5 +275,6 @@
         // })
       });
     </script>
+    
   </body>
 </html>
