@@ -356,7 +356,7 @@ header::before {
 .slider-nav {
   position: absolute;
   width: 350px;
-  height: 180px;
+  height: 125px;
   background-color: #131b23;
   transform: translate(-50%, -50%);
   top: 80%;
