@@ -2289,6 +2289,36 @@ margin-top: 50px;
 
 
 
+/* services new section */
 
+
+.heading-image {
+  display: flex;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+.heading-image img {
+  height: 80px;
+}
+.heading-image h2 {
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.services-slider.container .col-sm-3{
+  margin-top: 90px;
+}
+.icon-box {
+  margin-top: 90px;
+}
+.two{
+  margin-top: 0;
+}
+.icon-box-food{
+  margin-top: 90px;
+}
+.three{
+  margin-top: 0;
+}
 
 }
