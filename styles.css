@@ -2325,12 +2325,18 @@ margin-top: 50px;
   margin-top: 90px;
 }
 .icon-box {
+  height: 250px;
   margin-top: 90px;
 }
 .two{
   margin-top: 0;
 }
 .icon-box-food{
+  height: 340px;
+  margin-top: 90px;
+}
+.icon-box-interior{
+  height: 300px;
   margin-top: 90px;
 }
 .three{
