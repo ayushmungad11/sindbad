@@ -2120,7 +2120,7 @@ margin-top: 50px;
     font-size: 7.5rem;
   }
   .services-slide h2 {
-    font-size: 10rem;
+    font-size: 9rem;
   }
   div#slick-slide00 img {
     width: 75%;
@@ -2308,6 +2308,10 @@ margin-top: 50px;
 /* services new section */
 
 
+.services-slider .row {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .heading-image {
   display: flex;
   padding-left: 15px;
