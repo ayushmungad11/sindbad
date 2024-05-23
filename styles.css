@@ -716,13 +716,20 @@ header::before {
   text-align: -webkit-center;
 }
 .icon-box{
-  height: 280px;
+  height: 350px;
   padding: 15px;
   background-color: #e0e0e0;
   border-radius: 50px;
   
 }
 .icon-box-food{
+  height: 580px;
+  padding: 15px;
+  background-color: #e0e0e0;
+  border-radius: 50px;
+  
+}
+.icon-box-interior{
   height: 380px;
   padding: 15px;
   background-color: #e0e0e0;
@@ -751,6 +758,11 @@ header::before {
   font-size: 18px;
   font-weight: bold;
 }
+.icon-box-interior h3{
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
 .line:after {
   content:''; 
   display:block; 
@@ -766,6 +778,10 @@ header::before {
   font-size: 18px;
 }
 .icon-box-food p{
+  margin-top: 15px;
+  font-size: 18px;
+}
+.icon-box-interior p{
   margin-top: 15px;
   font-size: 18px;
 }
